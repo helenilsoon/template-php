@@ -1,0 +1,21 @@
+{
+    "name": "framework/nilson",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts":{
+      "server":"php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "helenilson oliveira"
+        }
+    ],
+    "require": {},
+    "config":{
+      "process-timeout":0
+    }
+}
+
