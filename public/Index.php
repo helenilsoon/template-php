@@ -1,2 +1,7 @@
 <?php
-echo('opa');
+
+session_start();
+
+require '../vendor/autoload.php';
+
+routerExecute();
